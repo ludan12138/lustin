@@ -16,11 +16,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>web</module>
-        <module>common</module>
-        <module>service-api</module>
-        <module>service-api-impl</module>
-        <module>support</module>
+        <module>lustin-web</module>
+        <module>lustin-common</module>
+        <module>lustin-service-api</module>
+        <module>lustin-service-api-impl</module>
+        <module>lustin-support</module>
     </modules>
 
     <properties>

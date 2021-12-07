@@ -6,21 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-api-impl" />
-        <module name="common" />
-        <module name="web" />
-        <module name="support" />
-        <module name="service-api" />
+        <module name="lustin-service-api" />
+        <module name="lustin-web" />
+        <module name="lustin-common" />
+        <module name="lustin-service-api-impl" />
+        <module name="lustin-support" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common" options="-parameters" />
-      <module name="service-api" options="-parameters" />
-      <module name="service-api-impl" options="-parameters" />
-      <module name="support" options="-parameters" />
-      <module name="web" options="-parameters" />
+      <module name="lustin-common" options="-parameters" />
+      <module name="lustin-service-api" options="-parameters" />
+      <module name="lustin-service-api-impl" options="-parameters" />
+      <module name="lustin-support" options="-parameters" />
+      <module name="lustin-web" options="-parameters" />
     </option>
   </component>
 </project>
