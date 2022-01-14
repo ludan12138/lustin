@@ -20,6 +20,7 @@ public class LustinApplication {
 
     @GetMapping("/hello")
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+
         logger.error("error logback for lustin");
         logger.info("info logback for lustin");
         return String.format("Hello %s!", name);
